@@ -1,1 +1,1 @@
-print ("Pussy cat, pussy cat where have you been?")
+print("Pussy cat, pussy cat where have you been?")
