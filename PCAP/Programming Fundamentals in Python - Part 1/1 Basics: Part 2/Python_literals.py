@@ -23,3 +23,9 @@ print("I'm Monty Python")
 #An empty string
 print('') 
 print("")
+
+#Literals - Boolean values
+print(True) # correct
+print(False) # correct
+print(true) # wrong, NameError
+print(false) # wrong, NameError
