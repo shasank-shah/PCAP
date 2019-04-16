@@ -11,3 +11,9 @@ if(n < 100):
     print(False)
 else:
     print(True)
+
+plant = input('plant:')
+if (plant == 'Spathiphyllum'):
+    print('Spathiphyllum is the best plant ever!')
+else:
+    print('No, I want a real Spathiphyllum...!')
