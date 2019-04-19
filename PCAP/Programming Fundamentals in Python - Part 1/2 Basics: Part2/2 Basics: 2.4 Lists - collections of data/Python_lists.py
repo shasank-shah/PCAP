@@ -8,3 +8,9 @@ numbers[1] = numbers[4]
 print(numbers)
 
 print(numbers[0])
+
+del numbers[0]
+print(len(numbers))
+print(numbers)
+
+print(numbers[-1])
