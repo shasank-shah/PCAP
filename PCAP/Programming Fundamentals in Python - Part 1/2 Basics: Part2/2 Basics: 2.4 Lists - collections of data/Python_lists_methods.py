@@ -34,3 +34,26 @@ sum = 0
 for i in new_list:
     sum += i
 print(sum)
+
+# swapping values without extra variable
+variable1 = 1
+variable2 = 2
+
+print("Before swapping, variable1 = ", variable1, " and variable2 = ", variable2)
+
+variable1, variable2 = variable2, variable1 # Swapping logic
+
+print("After swapping, variable1 = ", variable1, " and variable2 = ", variable2)
+
+my_list = [10, 1, 8, 3, 5]
+my_list[0], my_list[4] = my_list[4], my_list[0]
+my_list[1], my_list[3] = my_list[3], my_list[1]
+print(my_list)
+
+# Using for loop for swapping
+my_list = [10, 1, 8, 3, 5]
+l = len(my_list)
+for i in range(l // 2):
+    my_list[i], my_list[l - i - 1] = my_list[l - i - 1], my_list[i]
+
+print(my_list)
