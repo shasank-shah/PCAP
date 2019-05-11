@@ -1,70 +1,40 @@
 tuple1 = (1, 2, 3, 4)
-
 tuple2 = .1, .2, .3, .4
 
-
 print(tuple1)
-
 print(tuple2)
 
-
-
 emptytuple = ()
-
 print(emptytuple)
 
-
-
 oneelementtuple = (1,)
-
 print(oneelementtuple)
 
-
-
 #tuple reading would be like list only
-
 tuple = (1, 10, 100, 1000)
 
 print(tuple[0])
-
 print(tuple[-1])
-
 print(tuple[1:])
-
 print(tuple[:-2])
 
-
-
 for el in tuple:
-    
 	print(el)
 
-
-
 #concatenating tuples
-
 tuple1 = (1, 10, 100, 1000)
-
 tuple2 = (0,)
 
 print(tuple1 + tuple2)
 
-
-
 #how to use tuple
-
 tuple = (1, 10, 100)
-
 t1 = tuple + (1000, 10000)
-
 t2 = tuple * 3
 
 print(t1)
-
 print(t2)
-
 print(10 in tuple)
-
 print(-10 not in tuple)
 
 #dictionary
