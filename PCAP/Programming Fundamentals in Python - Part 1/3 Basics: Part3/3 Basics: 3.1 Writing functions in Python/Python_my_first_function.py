@@ -1,6 +1,7 @@
 def message():
     print("Enter next value")
 
+
 message()
 a = int(input())
 message()

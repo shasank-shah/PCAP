@@ -11,4 +11,3 @@ else:
         inlayer += 1
 
 print("Height of pyramid: ", height)
-

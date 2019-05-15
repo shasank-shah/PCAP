@@ -4,7 +4,7 @@ for i in range(8):
 
 print(row)
 
-#list comprehension
+# list comprehension
 
 row = [1 for i in range(8)]
 print(row)
@@ -16,6 +16,5 @@ temps = [[0.0 for h in range(24)] for d in range(31)]
 sum = 0.0
 for day in temps:
     sum += day[11]
-average = sum/31
+average = sum / 31
 print("Average temperature at noon: ", average)
-

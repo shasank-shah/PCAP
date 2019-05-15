@@ -3,7 +3,7 @@ even = 0
 number = int(input("Enter number:"))
 
 while number != 0:
-    if number%2 == 0:
+    if number % 2 == 0:
         even += 1
     else:
         odd += 1

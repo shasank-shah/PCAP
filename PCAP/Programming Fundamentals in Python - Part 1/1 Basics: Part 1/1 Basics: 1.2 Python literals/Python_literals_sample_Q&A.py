@@ -5,5 +5,5 @@
 #   "Python"
 ############################################################################
 
-print("I'm","learning",'"Python"',sep='\n')
+print("I'm", "learning", '"Python"', sep='\n')
 print("I'm\nlearning\n\"Python\"")

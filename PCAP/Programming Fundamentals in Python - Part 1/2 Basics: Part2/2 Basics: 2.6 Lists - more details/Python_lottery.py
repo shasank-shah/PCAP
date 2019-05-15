@@ -8,21 +8,21 @@ for number in lottery:
 
 print("hits: ", hits)
 
-#Select duplicate elements
+# Select duplicate elements
 list = [3, 7, 11, 42, 34, 49, 7, 11]
 new_list = []
 found = True
 
-for i in range(len(list)-1):
-    print("i value: ", list[i], "i+1 value: ", list[i+1])
+for i in range(len(list) - 1):
+    print("i value: ", list[i], "i+1 value: ", list[i + 1])
 
 '''
 for i in range(len(list)-1):
     for j in range(len(list)-1):
         print("i value: ", list[i], "j value: ", list[j+1])
 '''
-for i in range(len(list)-1):
-    for j in range(i+1, len(list)):
+for i in range(len(list) - 1):
+    for j in range(i + 1, len(list)):
         if list[i] == list[j]:
             new_list.append(list[i])
             print("i value: ", list[i], "j value: ", list[j])
@@ -34,10 +34,10 @@ for number in new_list:
 
 print("\nlist with unique elements are: ", list)
 
-#deleting new_list
+# deleting new_list
 del new_list
 
-#testing list remove method
-list=[1, 2, 2, 2, 3]
+# testing list remove method
+list = [1, 2, 2, 2, 3]
 list.remove(2)
 print("remove method: ", list)

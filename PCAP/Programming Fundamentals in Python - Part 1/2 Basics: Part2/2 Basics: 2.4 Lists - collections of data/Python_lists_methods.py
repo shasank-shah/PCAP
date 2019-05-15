@@ -1,10 +1,10 @@
 numbers = [111, 7, 2, 1]
-numbers.append(4) # list method "append"
+numbers.append(4)  # list method "append"
 print(len(numbers))
 print(numbers)
 
-numbers.insert(0, 222) # list method "insert" to add first element
-numbers.insert(2, 333) # list method "insert" to add third element
+numbers.insert(0, 222)  # list method "insert" to add first element
+numbers.insert(2, 333)  # list method "insert" to add third element
 print(numbers)
 
 a = numbers[1]
@@ -13,14 +13,14 @@ numbers[0] = a
 
 print(numbers)
 
-empty_list = [] # emply list without elements
+empty_list = []  # emply list without elements
 for i in range(5):
-    empty_list.append(i + 1) # adding elements using append method
+    empty_list.append(i + 1)  # adding elements using append method
 print(empty_list)
 
-empty_list = [] # empty list without elements
+empty_list = []  # empty list without elements
 for i in range(5):
-    empty_list.insert(0, i + 1) # adding elements using insert method which should have starting index position
+    empty_list.insert(0, i + 1)  # adding elements using insert method which should have starting index position
 print(empty_list)
 
 new_list = [10, 1, 8, 3, 5]
@@ -41,7 +41,7 @@ variable2 = 2
 
 print("Before swapping, variable1 = ", variable1, " and variable2 = ", variable2)
 
-variable1, variable2 = variable2, variable1 # Swapping logic
+variable1, variable2 = variable2, variable1  # Swapping logic
 
 print("After swapping, variable1 = ", variable1, " and variable2 = ", variable2)
 
