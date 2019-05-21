@@ -29,3 +29,9 @@ for indx in range(len(string)):
     lst.insert(0, string[indx])
 
 print(lst)
+
+lst = []
+for indx in range(len(string)):
+    lst.append(string[indx])
+
+print(lst)
