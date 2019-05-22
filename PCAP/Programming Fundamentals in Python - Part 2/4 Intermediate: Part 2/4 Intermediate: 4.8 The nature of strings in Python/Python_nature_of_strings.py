@@ -63,3 +63,23 @@ print('F' in text)
 print('1' in text)
 print('ghi' in text)
 print('Xyz' in text)
+
+text = 'bcdefghijklmnopqrstuvwxy'
+
+text = 'a' + text
+text = text + 'z'
+
+print(text)
+
+print(min('aAbByYzZ'))
+
+t = 'The Knights Who Say "Ni!"'
+print("[" + min(t) + "]") # The min function does not print anything due to space in-between
+print("[" + max(t) + "]") # The max function prints
+t = [0, 1, 2]
+print(min(t))
+
+print('aAbByYzZ'.index('b'))
+
+print(list('abcabc'))
+print('abcabc'.count('b'))
