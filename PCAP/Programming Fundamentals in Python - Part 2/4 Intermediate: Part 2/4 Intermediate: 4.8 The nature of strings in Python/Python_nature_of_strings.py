@@ -35,3 +35,7 @@ for indx in range(len(string)):
     lst.append(string[indx])
 
 print(lst)
+
+for ch in string:
+    print(ch, end = '')
+print()
