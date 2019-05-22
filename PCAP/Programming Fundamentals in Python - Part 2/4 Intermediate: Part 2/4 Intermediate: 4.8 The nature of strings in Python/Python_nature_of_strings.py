@@ -39,3 +39,21 @@ print(lst)
 for ch in string:
     print(ch, end = '')
 print()
+
+alpha = 'abdefg'
+print(alpha[1:3])
+print(alpha[3:])
+print(alpha[:3])
+print(alpha[3:-2])
+print(alpha[-3:4])
+print(alpha[::2])
+print(alpha[1::2])
+
+text = 'abcdefghijklmnopqrstuvwxyz'
+print(len(text))
+
+print('f' in text)
+print('F' in text)
+print('1' in text)
+print('ghi' in text)
+print('Xyz' in text)
